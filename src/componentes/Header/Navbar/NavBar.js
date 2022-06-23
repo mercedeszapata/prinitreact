@@ -15,7 +15,7 @@ const NavBar=()=>{
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" id="opcionesMenu">INICIO</Nav.Link>
-            <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown" id="opcionesMenu">
+            <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown" className="opcionesMenu1">
               <NavDropdown.Item href="#action/3.1">ESTAMPITAS</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 TARJETERÍA
@@ -23,7 +23,7 @@ const NavBar=()=>{
               <NavDropdown.Item href="#action/3.3">ILUSTRACIONES</NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
-            <Nav.Link href="#link" id="opcionesMenu">CARRITO</Nav.Link>
+            <Nav.Link href="#link" id="opcionesMenu2">CARRITO</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
