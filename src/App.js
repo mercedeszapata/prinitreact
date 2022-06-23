@@ -27,10 +27,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './componentes/Header/Header'
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 
 const App = ()=>{
   return(
+    <>
     <Header />
+    <ItemListContainer greeting="¡Bienvenido a Carté & Design" />
+    </>
+    
   )
 
 }

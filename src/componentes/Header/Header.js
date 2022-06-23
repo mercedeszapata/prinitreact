@@ -14,7 +14,7 @@ const Header=()=>{
         </div>
        
         <NavBar />
-       <h3>¡Bienvenido a Carté & Design!</h3>
+       
     </header>
         
     ) 

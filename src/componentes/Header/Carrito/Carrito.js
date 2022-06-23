@@ -3,7 +3,7 @@ import './Carrito.css';
 import { rgbToHex } from '@mui/material';
 const Carrito= ()=>{
     return (
-        <ShoppingCartIcon id="carrito" />
+        <button id="botonCarrito"><ShoppingCartIcon id="carrito" /></button>
     )
 }
 export default Carrito
