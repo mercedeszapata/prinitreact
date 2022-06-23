@@ -33,7 +33,7 @@ const App = ()=>{
   return(
     <>
     <Header />
-    <ItemListContainer greeting="¡Bienvenido a Carté & Design" />
+    <ItemListContainer greeting="¡Bienvenido a Carté & Design!" />
     </>
     
   )
